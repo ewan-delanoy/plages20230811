@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: fr.hb.ewan.plages.controller.rest.PaysControllerRestTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.303 s <<< FAILURE! - in fr.hb.ewan.plages.controller.rest.PaysControllerRestTest
+testerPatcherPays404  Time elapsed: 0.011 s  <<< ERROR!
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is fr.hb.ewan.plages.exception.PaysInexistantException: Pays inexistant
+	at fr.hb.ewan.plages.controller.rest.PaysControllerRestTest.testerPatcherPays404(PaysControllerRestTest.java:86)
+Caused by: fr.hb.ewan.plages.exception.PaysInexistantException: Pays inexistant
+	at fr.hb.ewan.plages.controller.rest.PaysControllerRestTest.testerPatcherPays404(PaysControllerRestTest.java:86)
+
