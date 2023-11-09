@@ -44,6 +44,7 @@ jobs:
         name: packaged-artifact
         path: target/*.jar
 
+
 docker-build-and-push:
     runs-on: ubuntu-latest
     needs: package
