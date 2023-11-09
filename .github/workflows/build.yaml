@@ -17,4 +17,4 @@ jobs:
         distribution: 'adopt'
 
     - name: Run Maven Tests
-      run: mvn clean package -DskipTests
+      run: mvn clean test
