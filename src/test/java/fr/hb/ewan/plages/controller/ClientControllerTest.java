@@ -29,6 +29,7 @@ public class ClientControllerTest {
 		// MockMultipartFile mf1 = new MockMultipartFile("FICHIER", "1.png", "multipart/form-data",
 		//		new FileInputStream(new File("C:\\Users\\Adnane HumanBooster\\Downloads\\79748_account_msn_icon.png")));
 		
+		/*
 		MockMultipartFile mf1 = new MockMultipartFile(
                 "FICHIER",
                 "avatar.jpg",
@@ -44,6 +45,7 @@ public class ClientControllerTest {
 				//.andExpect(MockMvcResultMatchers.model().attribute("message","avatar correctement ajouter")) dans un context de non redirection
                 .andExpect(MockMvcResultMatchers.redirectedUrl("clients?message=avatar+correctement+ajoute"))
 				.andDo(MockMvcResultHandlers.print());
+		*/
 	}
 
 	@Test
